@@ -30,6 +30,9 @@ pre
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #130e4d;
 }
+p{
+    margin: 0!important;
+}
 ul {
     list-style: none;
     padding: 0;
@@ -37,7 +40,7 @@ ul {
 }
 a{
     text-decoration: none;
-    color: inherit;
+    color: #130e4d;
 }
 a:hover{
     text-decoration: none;
@@ -69,14 +72,6 @@ img
 .center{
     text-align: center;
 }
-.flex-bw{
-    display: flex;
-    justify-content: space-between;
-}
-.flex-c{
-    display: flex;
-    justify-content: center;
-}
 .hide{
     display: none;
 }
@@ -88,6 +83,15 @@ img
 }
 .show-opacity{
     opacity: 1;
+}
+.box{
+    padding: 20px;
+    border: solid 1px #676E8A ;
+    border-radius:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 .error{
     color: red ;
@@ -107,4 +111,32 @@ img
 }
 .dark{
     color:#110A57 ;
+}
+.flex-cc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.flex-ccc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.flex-bw{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-c{
+    display: flex;
+    justify-content: center;
+}
+.section{
+    margin-top: 70px;
+}
+.bold{
+    font-size: 1.3rem;
+    color: #130e4d;
+    font-weight: bold;
 }
