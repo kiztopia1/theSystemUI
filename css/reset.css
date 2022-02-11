@@ -98,6 +98,7 @@ img
 }
 .btn{
     padding: 10px;
+    display: block;
 }
 .pd{
     padding: 10px;
@@ -133,10 +134,17 @@ img
     justify-content: center;
 }
 .section{
-    margin-top: 70px;
+    margin-top: 50px;
 }
 .bold{
     font-size: 1.3rem;
     color: #130e4d;
     font-weight: bold;
+}
+/* sizing */
+.margin-sm{
+    margin: 5px;
+}
+.margin{
+    margin:10px
 }
